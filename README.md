@@ -1,6 +1,6 @@
 # RAMBO: Reliability Analysis for Mamba through Bit-flip Attack Optimization
 
-**RAMBO** is a research framework for identifying, selecting, and optimizing highly vulnerable weight subsets in large State-Space Models (SSMs). The framework performs a two-stage pipeline:
+**RAMBO** is a Bit-Flip Attack (BFA) framework for identifying, selecting, and optimizing highly vulnerable bits in large State-Space Models (SSMs). The framework performs a two-stage pipeline:
 
 1. **Weight Selection** — Identify candidate vulnerable weight subsets through sensitivity analysis and bit-flip perturbations.  
 2. **Weight Optimization** — Reduce the subset to a minimal adversarial group while ensuring the model loss stays above a target threshold.
